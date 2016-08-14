@@ -1,0 +1,10 @@
+.panel.widget-type-stream .panel-content a {
+    color: #428bca;
+    text-decoration: none;
+}
+
+.panel.widget-type-stream .panel-content img {
+    border-radius: 32px;
+}
+
+
