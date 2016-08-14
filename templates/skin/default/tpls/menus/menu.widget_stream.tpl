@@ -15,7 +15,7 @@
                                 data-toggle="tooltip"
                                 data-container="body"
                                 data-placement="bottom"
-                                data-original-title="{$aLang.plugin.gostream[$aItem.text]}">
+                                data-original-title="{$aLang.plugin.livestream[$aItem.text]}">
                                 <a onclick="$('.js-widget-stream-navs a').removeClass('active'); return false;"
                                     href="#" class="link link-lead link-clear link-dark" data-toggle="tab" data-type="{$aItem.type}">
                                     {if $aItem.type == 'all'}<i class="fa fa-flag-o"></i>{/if}
