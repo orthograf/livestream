@@ -89,6 +89,7 @@
                                 data-container="body"
                                 data-placement="bottom"
                                 data-original-title="{$aLang.plugin.livestream[$aItem.text]}">
+                                href="#" class="link link-lead link-clear link-dark" data-toggle="tab" data-type="{$aItem.type}">
                                 <a onclick="$('.js-widget-stream-navs a').removeClass('active'); return false;"
                                     {if $aItem.type == 'comment'}<i class="fa fa-comments-o"></i>{/if}
                                 </a>    
